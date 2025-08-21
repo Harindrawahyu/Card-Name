@@ -21,6 +21,7 @@
 
 .profile-box {
     margin-left: 500px;
+    margin: auto;
     background: rgba(228, 219, 219, 0.2);
     text-align: center;
     padding: 50px 100px;
@@ -66,13 +67,14 @@
     font-weight: 600px;
     font-size: 16px;
 }
+.profile-box button:hover {
+    background: rgb(8, 12, 53);
+    color: white;
+    transition: 0.3s ease-in-out;
+}
 
 .profile-box h3 {
     font-size: 40px;
     margin-top: 20px;
     font-weight: 600;
-}
-
-.profile-box p1 {
-    font-size: 15px; 
 }
